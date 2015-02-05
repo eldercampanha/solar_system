@@ -10,7 +10,7 @@ class CreateBodies < ActiveRecord::Migration
      t.integer :moons, default: 0
      t.boolean :rings, default: false
      t.string :url
-      t.timestamps null: false
+     t.timestamps null: false
     end
   end
 end
